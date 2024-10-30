@@ -1,0 +1,9 @@
+.github
+build
+docker
+upstream
+wasi-sysroot
+.gitignore
+*.sh
+node_modules
+yarn.lock

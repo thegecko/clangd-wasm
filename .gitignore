@@ -1,0 +1,6 @@
+.DS_Store
+build
+upstream
+wasi-sysroot
+node_modules
+yarn.lock
