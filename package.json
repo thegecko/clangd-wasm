@@ -1,9 +1,9 @@
 {
   "name": "@thegecko/clangd-wasm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Rob Moran <github@thegecko.org>",
   "license": "MIT",
-  "main": "dist/clangd.mjs",
+  "main": "dist/clangd.js",
   "type": "module",
   "types": "types.d.mts",
   "publishConfig": {
