@@ -41,7 +41,7 @@ fi
 cmake --build $LLVM_NATIVE/ -- llvm-tblgen clang-tblgen
 
 ## Apply a patch for blocking stdin read
-git apply $SRC/wait_stdin.patch
+git apply $SRC/wait_stdin.patch --directory=upstream/llvm-project
 
 ## Build clangd (1st time, just for compiler headers)
 emcmake cmake -G Ninja \
